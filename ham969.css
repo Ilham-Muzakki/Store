@@ -1,0 +1,44 @@
+body{
+    background-color: bisque;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.card{
+    width: 200pxrem;
+    height: 360px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px purple;
+    margin-top: 20px;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.card img{
+    width:100%;
+    height:200px;
+    background-color: grey;
+    overflow: hidden;
+    border-radius: 15px;
+}
+         .btn-grad {background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
